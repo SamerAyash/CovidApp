@@ -1,0 +1,344 @@
+﻿@font-face {
+	font-family: 'Myriad';
+	src: url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.eot');
+    src: local('../fonts/'), 
+     url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.woff') format('woff'),
+     url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.woff2') format('woff'),
+     url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.svg') format('SVG'),
+     url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.otf') format('opentype'),
+     url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.ttf') format('truetype');
+    
+}
+@font-face {
+	font-family: 'bauhaus-93';
+	src: url('../fonts/bauhaus-93/Bauhaus 93 Regular.eot');
+    src: local('../fonts/'), 
+     url('../fonts/bauhaus-93/Bauhaus 93 Regular.woff') format('woff'),
+     url('../fonts/bauhaus-93/Bauhaus 93 Regular.woff2') format('woff'),
+     url('../fonts/bauhaus-93/Bauhaus 93 Regular.svg') format('SVG'),
+     url('../fonts/bauhaus-93/Bauhaus 93 Regular.otf') format('opentype'),
+     url('../fonts/bauhaus-93/Bauhaus 93 Regular.ttf') format('truetype');
+    
+}
+@font-face {
+	font-family: 'BalooBhaijaan-Regular';
+	src: url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.eot');
+    src: local('../fonts/'), 
+     url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.woff') format('woff'),
+     url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.woff2') format('woff'),
+     url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.svg') format('SVG'),
+     url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.otf') format('opentype'),
+     url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.ttf') format('truetype');
+    
+}
+@font-face {
+	font-family: 'TimesNewRomanMTExtraBold';
+	src: url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.eot');
+    src: local('../fonts/'), 
+     url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.woff') format('woff'),
+     url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.woff2') format('woff'),
+     url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.svg') format('SVG'),
+     url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.otf') format('opentype'),
+     url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.ttf') format('truetype');
+    
+}
+header.welcome img , header.account img  {
+    width: 100%;
+}
+header.welcome h2 {
+    font-family: 'Myriad';
+    color: #1e99b2;
+    text-align: center;
+    font-size: 35px;
+}
+header.welcome h1 {
+    font-family: 'bauhaus-93';
+    color: #1a2559;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+form.welcome {
+    position: relative;
+    z-index: 1;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+form.welcome .form-group {
+width: 60%;
+margin:25px auto;
+}
+form.welcome .input-group-text {
+    background: transparent;
+    border: 0;
+    color: #7fcad2;
+    font-size:20px;
+}
+form.welcome input {
+   background: transparent;
+    border: 0;
+    color:#007aa3 !important;
+    font-family: 'Myriad';
+    font-size:20px;
+    text-transform: uppercase;
+}
+form.welcome .input-group {
+    border: 1px solid #7fcad2;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+form.welcome input::placeholder   {
+    color:#007aa3;
+    font-family: 'Myriad';
+    font-size:20px;
+    text-transform: uppercase;
+}
+form.welcome  .form-control:focus {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+  }
+  form.welcome  button {
+    background-color: #fff;
+    border: #fff;
+    width: 100%;
+    color:#007aa3;
+    font-family: 'Myriad';
+    font-size:20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  form.welcome  button:hover {
+    background-color: #fff;
+  
+    color:#007aa3;
+  
+   
+  }
+  .back-content {
+      position: relative;
+      z-index: 0;
+  }
+  .back-content img{
+    position: absolute;
+    left: 0;
+    
+}
+.form-content .avatar {
+    text-align: center;
+}
+.form-content .avatar img{
+    width: 100%;
+}
+.form-content .avatar h1 {
+    font-family: 'BalooBhaijaan-Regular';
+    color: #1d97af;
+    text-transform: uppercase;
+    font-size: 27px;
+    margin: 15px;
+}
+.form-content {
+    background-color: #1a2559;
+    padding-bottom: 25px;
+}
+.form-content  .form-group {
+    width: 65%;
+    margin:25px auto;
+    }
+    .form-content  input {
+       background: transparent;
+        border: 0;
+        color:#fff !important;
+        font-family: 'Myriad';
+        font-size:20px;
+        text-transform: uppercase;
+    }
+    .form-content  .input-group {
+        border: 2px solid #1d97af;
+        border-radius: 20px;
+        padding: 5px;
+        
+    }
+    .form-content  input::placeholder   {
+        color:#fff;
+        font-family: 'Myriad';
+        text-transform: capitalize;
+        font-weight: 300;
+    }
+    .form-content   .form-control:focus {
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+      }
+      .form-content   button {
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+        width: 100%;
+      }
+      .form-content   button:hover {
+        cursor: pointer;
+      }
+      .form-content   button img{
+      margin: auto;
+      width: 65px;
+      }
+      .form-content .input-group-text {
+          background-color: transparent;
+          border: 0;
+      }
+      .form-content .input-group-prepend img{
+        width: 25px;
+    }
+.bar-cont {
+    width: 60px ;
+    height: 60px;
+    background-color: #1e99b2;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+
+.form-content.update  .first .input-group-text  img{
+    
+    width: 30px;
+    height: 35px;
+}
+.form-content.update   .input-group {
+    border: 2px solid #1d97af;
+    border-radius: 20px;
+    padding:0;
+    align-items: center;
+}
+.update .avatar {
+    margin-bottom: 75px;
+    margin-top: 25px;
+}
+.update .avatar  h1{
+   font-size: 35px;
+}
+.aboutus .user-logo img{
+    width: 40%;
+    margin-top: 50px;
+}
+.aboutus .user-logo {
+    text-align: center;
+}
+.aboutus h1{
+    font-family: 'BalooBhaijaan-Regular';
+    color: #1d97af;
+    text-transform: uppercase;
+    font-size: 27px;
+    margin: 15px;
+}
+.pagination {
+    
+    width: 150px;
+    margin:150px  auto 50px;
+}
+.pagination-item {
+    width: 30px;
+    height: 30px  ;
+    border-radius: 50%;
+    background-color: #1d97af;
+    display:inline-block;
+    margin: 10px;
+}
+.pagination-item:hover {
+    cursor: pointer;
+}
+.external-link-items {
+    display: flex;
+    background-color: transparent;
+    border: 2px solid #1d97af;
+    border-radius: 20px;
+    align-items: center;
+    width: 65%;
+    margin: 25px auto;
+    
+}
+.thumb {
+  
+    padding: 3px;
+    
+    border-radius: 20px;
+    background-color: #1e99b2;
+    border-radius: 15px 0 0 15px;
+    border: 2px solid #1d97af;
+}
+.thumb img{
+    background: #1d97af;
+    width: 30px;
+    height: 35px;
+   margin: 5px;
+}
+.title {
+    color:#fff;
+    font-family: 'Myriad';
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 7px;
+}
+.go {
+    margin-left: auto;
+    margin-right: 10px;
+}
+.go img{
+    width: 25px;
+}
+
+header.green-back {
+    background-color: #108080;
+    padding: 70px;
+    overflow: hidden;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'TimesNewRomanMTExtraBold';
+}
+header.green-back h1{
+  text-align: center;
+}
+.article-item img {
+    width: 100%;
+}
+.article-item  {
+    padding: 25px;
+    border: 2px solid #108080;
+    border-top:0;
+}
+.article-item .title {
+text-transform: capitalize;
+font-family: 'TimesNewRomanMTExtraBold';
+color: black;
+
+}
+.article-item .content {
+    text-transform: capitalize;
+    font-family: 'TimesNewRomanMTExtraBold';
+    color: #b6b6b6;
+    }
+.green-back .btn-primary {
+    background-color: #fff;
+    color: #108080;
+    font-size: 40px;
+    border: 0;
+    padding: 0 10px;
+}
+.green-back .btn-primary:focus {
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+  }
+  .green-back  .nav-link {
+      color: black;
+  }
