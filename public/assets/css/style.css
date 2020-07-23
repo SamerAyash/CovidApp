@@ -1,46 +1,46 @@
 ﻿@font-face {
 	font-family: 'Myriad';
 	src: url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.eot');
-    src: local('../fonts/'), 
+    src: local('../fonts/'),
      url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.woff') format('woff'),
      url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.woff2') format('woff'),
      url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.svg') format('SVG'),
      url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.otf') format('opentype'),
      url('../fonts/Myriad\ Pro\ Regular/Myriad Pro Regular.ttf') format('truetype');
-    
+
 }
 @font-face {
 	font-family: 'bauhaus-93';
 	src: url('../fonts/bauhaus-93/Bauhaus 93 Regular.eot');
-    src: local('../fonts/'), 
+    src: local('../fonts/'),
      url('../fonts/bauhaus-93/Bauhaus 93 Regular.woff') format('woff'),
      url('../fonts/bauhaus-93/Bauhaus 93 Regular.woff2') format('woff'),
      url('../fonts/bauhaus-93/Bauhaus 93 Regular.svg') format('SVG'),
      url('../fonts/bauhaus-93/Bauhaus 93 Regular.otf') format('opentype'),
      url('../fonts/bauhaus-93/Bauhaus 93 Regular.ttf') format('truetype');
-    
+
 }
 @font-face {
 	font-family: 'BalooBhaijaan-Regular';
 	src: url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.eot');
-    src: local('../fonts/'), 
+    src: local('../fonts/'),
      url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.woff') format('woff'),
      url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.woff2') format('woff'),
      url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.svg') format('SVG'),
      url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.otf') format('opentype'),
      url('../fonts/BalooBhaijaan-Regular/BalooBhaijaan-Regular.ttf') format('truetype');
-    
+
 }
 @font-face {
 	font-family: 'TimesNewRomanMTExtraBold';
 	src: url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.eot');
-    src: local('../fonts/'), 
+    src: local('../fonts/'),
      url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.woff') format('woff'),
      url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.woff2') format('woff'),
      url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.svg') format('SVG'),
      url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.otf') format('opentype'),
      url('../fonts/TimesNewRomanMTExtraBold/TimesNewRomanMTExtraBold.ttf') format('truetype');
-    
+
 }
 header.welcome img , header.account img  {
     width: 100%;
@@ -86,7 +86,7 @@ form.welcome .input-group {
     border: 1px solid #7fcad2;
     border-radius: 20px;
     padding: 5px;
-    
+
 }
 form.welcome input::placeholder   {
     color:#007aa3;
@@ -113,10 +113,14 @@ form.welcome  .form-control:focus {
   }
   form.welcome  button:hover {
     background-color: #fff;
-  
+
     color:#007aa3;
-  
-   
+
+
+  }
+  #logout:hover{
+      background-color: #fff !important;
+      color:#0056b3 !important;
   }
   .back-content {
       position: relative;
@@ -125,7 +129,7 @@ form.welcome  .form-control:focus {
   .back-content img{
     position: absolute;
     left: 0;
-    
+
 }
 .form-content .avatar {
     text-align: center;
@@ -160,7 +164,7 @@ form.welcome  .form-control:focus {
         border: 2px solid #1d97af;
         border-radius: 20px;
         padding: 5px;
-        
+
     }
     .form-content  input::placeholder   {
         color:#fff;
@@ -209,7 +213,7 @@ form.welcome  .form-control:focus {
 
 
 .form-content.update  .first .input-group-text  img{
-    
+
     width: 30px;
     height: 35px;
 }
@@ -241,7 +245,7 @@ form.welcome  .form-control:focus {
     margin: 15px;
 }
 .pagination {
-    
+
     width: 150px;
     margin:150px  auto 50px;
 }
@@ -264,12 +268,12 @@ form.welcome  .form-control:focus {
     align-items: center;
     width: 65%;
     margin: 25px auto;
-    
+
 }
 .thumb {
-  
+
     padding: 3px;
-    
+
     border-radius: 20px;
     background-color: #1e99b2;
     border-radius: 15px 0 0 15px;
